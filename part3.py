@@ -19,3 +19,8 @@ Enter the height: 3
 """
 
 #write your code here 
+b = int(input("Enter a positive integer (base): "))
+h = int(input("Enter a positive integer (height): "))
+
+for i in range(1, h+1, 1):
+  print('*' *b)
